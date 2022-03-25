@@ -14,7 +14,7 @@ function start () {
     }
 }
 
-start();
+// start();
 
 const personalMoviDB = {
     count: numberOfFilms,
@@ -39,7 +39,7 @@ function rememberMyFilms () {
     }
 }
 
-rememberMyFilms();
+// rememberMyFilms();
 
 function detectPersonalLevel () {
     if (personalMoviDB.count < 10) {
@@ -53,14 +53,14 @@ function detectPersonalLevel () {
     }
 }
 
-detectPersonalLevel();
+// detectPersonalLevel();
 
 function showMyDB (hidden) {
     if (!hidden) {
          console.log(personalMoviDB);
     } 
 }
-showMyDB(personalMoviDB.privat);
+// showMyDB(personalMoviDB.privat);
 
 function writeYourGeneres () {
     for (let i = 1; i <= 3; i++ ) {
@@ -69,4 +69,4 @@ function writeYourGeneres () {
     }
 }
 
-writeYourGeneres();
+// writeYourGeneres();
