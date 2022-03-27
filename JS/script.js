@@ -67,11 +67,11 @@ const personalMoviDB = {
     }
     
 };
-personalMoviDB.toggleVisibleMyDB();
-personalMoviDB.toggleVisibleMyDB();
-personalMoviDB.start();
-personalMoviDB.rememberMyFilms();
-personalMoviDB.detectPersonalLevel();
-personalMoviDB.showMyDB(personalMoviDB.privat);
-personalMoviDB.writeYourGeneres();
+// personalMoviDB.toggleVisibleMyDB();
+// personalMoviDB.toggleVisibleMyDB();
+// personalMoviDB.start();
+// personalMoviDB.rememberMyFilms();
+// personalMoviDB.detectPersonalLevel();
+// personalMoviDB.showMyDB(personalMoviDB.privat);
+// personalMoviDB.writeYourGeneres();
 
